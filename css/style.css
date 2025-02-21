@@ -243,8 +243,9 @@ button {
 
 .navbar {
     padding: .5rem 0px;
-    border-top: 20px solid #efe4d1;
-    border-bottom: 20px solid #efe4d1;
+    justify-content: space-between;
+    /* border-top: 20px solid #efe4d1;
+    border-bottom: 20px solid #efe4d1; */
 }
 
 .row{
@@ -265,12 +266,19 @@ button {
 }
 
 .logo {
+    font-size: 20px;  /* Large font size */
+    font-weight: bold; /* Make it bold */
+    color: #f8f9fa;    /* Light color (adjust as needed) */
+    text-transform: uppercase; /* Make text uppercase for a logo effect */
+    letter-spacing: 2px; /* Add some spacing */
+}
+/* .logo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     width: 44%;
     font-weight: 900;
     float: left;
-}
+} */
 
 .search_icon {
     float: left;
